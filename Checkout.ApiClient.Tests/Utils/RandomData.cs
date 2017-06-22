@@ -189,6 +189,14 @@ namespace Tests
 
         #endregion
 
+        public string Drink
+        {
+            get
+            {
+                return GetString();
+            }
+        }
+
         /// <summary>
         /// Generates random string
         /// </summary>
