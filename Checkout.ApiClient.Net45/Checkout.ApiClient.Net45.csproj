@@ -85,6 +85,11 @@
     <Compile Include="ApiServices\Customers\ResponseModels\CustomerList.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ApiServices\Drinks\DrinksService.cs" />
+    <Compile Include="ApiServices\Drinks\RequestModels\CartRequest.cs" />
+    <Compile Include="ApiServices\Drinks\ResponseModels\CartListResponse.cs" />
+    <Compile Include="ApiServices\Drinks\ResponseModels\CartResponse.cs" />
+    <Compile Include="ApiServices\Drinks\ResponseModels\DrinkResponse.cs" />
     <Compile Include="ApiServices\Lookups\LookupsService.cs" />
     <Compile Include="ApiServices\Lookups\ResponseModels\CountryInfo.cs" />
     <Compile Include="ApiServices\Lookups\ResponseModels\LocalPaymentData.cs" />

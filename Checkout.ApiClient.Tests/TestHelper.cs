@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Tests.Utils;
 using FilterAction = Checkout.ApiServices.SharedModels.Action;
+using Checkout.ApiServices.Drinks.RequestModels;
 
 namespace Tests
 {
@@ -630,6 +631,19 @@ namespace Tests
         public static QueryRequest GetQueryRequest()
         {
             return GetQueryRequest(null);
+        }
+
+        #endregion
+
+        #region Drink Helpers
+
+        public static CartRequest GetCartModel()
+        {
+            return new CartRequest
+            {
+                Drink = RandomData.Drink,
+                Quantity = RandomData.GetNumber()
+            };
         }
 
         #endregion
